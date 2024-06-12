@@ -14,10 +14,10 @@ class OnTapRestrictionForEmptyCells extends StatefulWidget {
 
 class OnTapRestrictionForEmptyCellsState
     extends State<OnTapRestrictionForEmptyCells> {
-  List<TimeRegion> _regions;
-  CalendarController _controller;
-  List<DateTime> _blackoutDateCollection;
-  List<Appointment> appointments;
+  late List<TimeRegion> _regions;
+  late CalendarController _controller;
+  late List<DateTime> _blackoutDateCollection;
+  late List<Appointment> appointments;
 
   @override
   void initState() {
